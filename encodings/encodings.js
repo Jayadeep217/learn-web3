@@ -76,7 +76,7 @@ console.log(base64Encoded);
 ********************************
 */
 
-import bs58 from 'bs58';
+import bs58 from "bs58";
 
 function uint8ArrayToBase58(uint8Array) {
   return bs58.encode(uint8Array);
