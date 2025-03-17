@@ -1,5 +1,11 @@
 const SolanaWallet = () => {
-  return <></>;
+  return (
+    <>
+      <button
+      className="btnSolana"
+      >Solana</button>
+    </>
+  );
 };
 
 export default SolanaWallet;
